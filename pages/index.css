@@ -391,6 +391,7 @@ template {
   margin: 60px 0 20px;
   font-size: 112px;
   line-height: 112px;
+  font-weight: normal;
 }
 .header__subtitle {
   margin: 0 0 230px;
