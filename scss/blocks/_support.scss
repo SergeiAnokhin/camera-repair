@@ -1,0 +1,37 @@
+.support {
+    box-sizing: border-box;
+    max-width: $section-width;
+    margin: 0 auto 180px;
+    padding: 60px;
+
+    &__title {
+        margin: 0 0 90px;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    &__button {
+        background: $button-color;
+        border-radius: 8px;
+        padding: 13px 30px;
+        margin-bottom: 50px;
+        border: none;
+        color: $title-color;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.375px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 32px;
+        line-height: 40px;
+        color: $text-color;
+    }
+}

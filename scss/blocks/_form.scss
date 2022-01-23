@@ -34,7 +34,11 @@
         font-size: 12px;
         line-height: 18px;
         color: $button-color;
-        margin: 10px;
+        margin: 12px;
+
+        &_footer {
+            margin: 18px 0 0;
+        }
     }
 
 }
