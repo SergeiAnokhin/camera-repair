@@ -1,6 +1,9 @@
 .form {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    max-width: 750px;
+
     &__input {
         @include form-style;
         background-color: rgba(142, 142, 152, 0.2);
@@ -26,4 +29,12 @@
             cursor: pointer;
         }
     }
+
+    &__label {
+        font-size: 12px;
+        line-height: 18px;
+        color: $button-color;
+        margin: 10px;
+    }
+
 }

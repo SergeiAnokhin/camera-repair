@@ -406,7 +406,9 @@ template {
 
 .form {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  max-width: 750px;
 }
 .form__input {
   border: none;
@@ -445,4 +447,10 @@ template {
 }
 .form__button:hover {
   cursor: pointer;
+}
+.form__label {
+  font-size: 12px;
+  line-height: 18px;
+  color: #47474C;
+  margin: 10px;
 }
