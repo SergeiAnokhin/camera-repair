@@ -1,0 +1,55 @@
+.services {
+    max-width: $section-width;
+    margin: 0 auto;
+    padding: 0 60px 60px;
+
+    &__title {
+        margin: 0;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 120px;
+    }
+
+    &__cards {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__card {
+        color: $title-color;
+        width: 100%;
+        max-width: 550px;
+        background: $card-bg-color;
+        border-radius: 16px;
+        padding: 40px;
+    }
+
+    &__label {
+        margin: 0 0 20px;
+        font-size: 18px;
+        line-height: 18px;
+        color: $text-color;
+    }
+
+    &__heading {
+        margin: 0 0 40px;
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: normal;
+    }
+
+    &__text {
+        margin: 0 0 40px;
+        font-size: 32px;
+        line-height: 40px;
+        color: $text-color;
+    }
+
+    &__price {
+        margin: 0;
+        font-size: 14px;
+        line-height: 14px;
+        color: $notice-color;
+    }
+}
