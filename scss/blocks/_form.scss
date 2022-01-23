@@ -38,3 +38,13 @@
     }
 
 }
+
+@media (max-width: 768px) {
+    .form {
+
+        &__input {
+            max-width: calc(100% - 221px);
+        }
+    
+    }
+}
