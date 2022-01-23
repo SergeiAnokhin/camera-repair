@@ -2,10 +2,14 @@
 @import '../vendor/normalize';
 
 @import '../scss/variables';
+@import '../scss/mixins';
 
 @import '../scss/blocks/body';
 @import '../scss/blocks/page';
 
 @import '../scss/blocks/logo';
 
-@import '../scss/blocks/header'
+@import '../scss/blocks/header';
+
+@import '../scss/blocks/repair-request';
+@import '../scss/blocks/form';
