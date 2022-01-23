@@ -499,3 +499,13 @@ template {
     padding: 20px 60px 60px;
   }
 }
+.description {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 60px;
+}
+.description__text {
+  font-size: 32px;
+  line-height: 40px;
+  color: #8E8E98;
+}
