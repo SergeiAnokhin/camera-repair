@@ -1,0 +1,16 @@
+.header {
+    max-width: $section-width;
+    margin: 0 auto;
+
+    &__title {
+        margin: 60px 0 20px;
+        font-size: 112px;
+        line-height: 112px;
+    }
+
+    &__subtitle {
+        margin: 0 0 230px;
+        font-size: 80px;
+        line-height: 70px;
+    }
+}

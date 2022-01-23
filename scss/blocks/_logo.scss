@@ -1,0 +1,17 @@
+.logo {
+    margin: 0;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    &__notice {
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 20px;
+        padding: 4px 8px;
+        background-color: #25E197;
+        border-radius: 4px;
+        color: $main-bg-color;
+    }
+}
