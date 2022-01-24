@@ -404,6 +404,18 @@ template {
   line-height: 70px;
 }
 
+@media (max-width: 1179px) {
+  .header__title {
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 0;
+  }
+  .header__subtitle {
+    margin-bottom: 470px;
+    font-size: 49px;
+    line-height: 60px;
+  }
+}
 .repair-request {
   box-sizing: border-box;
   max-width: 1240px;
@@ -477,20 +489,20 @@ template {
   gap: 20px;
 }
 .gallery__img-1 {
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .gallery__img-2 {
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .gallery__block-1 {
   width: calc(100% - 468px);
   background-color: #FFD233;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .gallery__block-2 {
   width: calc(100% - 750px);
   background-color: #25E197;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 @media (max-width: 1024px) {
