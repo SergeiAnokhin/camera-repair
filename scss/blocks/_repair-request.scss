@@ -4,3 +4,15 @@
     margin: 0 auto 50px;
     padding: $section-padding;
 }
+
+@media (max-width: 1024px) {
+    .repair-request {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .repair-request {
+        padding: $section-padding-mobile;
+    }
+}

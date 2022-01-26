@@ -61,3 +61,21 @@
         color: $notice-color;
     }
 }
+
+@media (max-width: 1024px) {
+    .services {
+
+        &__title {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        &__cards {
+            flex-wrap: wrap;
+        }
+
+        &__card {
+            max-width: none;
+        }
+    }
+}

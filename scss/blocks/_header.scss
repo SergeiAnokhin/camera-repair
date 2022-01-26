@@ -24,7 +24,7 @@
         &__title {
             font-size: 70px;
             line-height: 90px;
-            margin-bottom: 0;
+            margin: 70px 0 0;
         }
     
         &__subtitle {
@@ -35,3 +35,23 @@
     }
 
 }
+
+@media (max-width: 767px) {
+    .header {
+        padding: $section-padding-mobile;
+
+        &__title {
+            font-size: 50px;
+            line-height: 60px;
+            margin: 70px 0 0;
+        }
+    
+        &__subtitle {
+            margin-bottom: 260px;
+            font-size: 30px;
+            line-height: 38px;
+        }
+    }
+
+}
+

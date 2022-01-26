@@ -28,6 +28,8 @@
 @media (max-width: 1024px) {
     
     .gallery {
+
+        padding: 20px 60px 60px;
         
         &__img-2 {
             max-width: 455px;
@@ -40,9 +42,32 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     
     .gallery {
-        padding: 20px 60px 60px;
+        padding: 40px 20px 20px;
+
+        &__img-1 {
+            width: 100%;
+            // border-radius: 7px;
+        }
+    
+        &__img-2 {
+            width: 100%;
+            max-width: none;
+            // border-radius: 7px;
+        }
+    
+        &__block-1 {
+            width: 100%;
+            min-height: 67px;
+            border-radius: 4px;
+        }
+    
+        &__block-2 {
+            width: 100%;
+            min-height: 124px;
+            border-radius: 4px;
+        }
     }
 }

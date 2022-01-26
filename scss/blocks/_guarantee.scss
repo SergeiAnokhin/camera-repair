@@ -46,3 +46,42 @@
         color: $text-color;
     }
 }
+
+@media (max-width: 1024px) {
+    .guarantee {
+
+        &__title {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        &__cards {
+            flex-wrap: wrap;
+        }
+
+    }
+}
+
+@media (max-width: 954px) {
+    .guarantee {
+
+        &__cards {
+            justify-content: center;
+        }
+
+        &__card {
+            max-width: 314px;
+        }
+
+    }
+}
+
+@media (max-width: 767px) {
+    .guarantee {
+
+        &__card {
+            max-width: none;
+        }
+
+    }
+}

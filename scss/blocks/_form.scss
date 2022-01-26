@@ -47,8 +47,41 @@
     .form {
 
         &__input {
-            max-width: calc(100% - 221px);
+
+            &_fluid {
+                max-width: calc(100% - 221px);
+            }
+
         }
     
     }
 }
+
+@media (max-width: 450px) {
+    .form {
+
+        &__input {
+
+            max-width: calc(100% - 51px);
+
+            &_fluid {
+                max-width: calc(100% - 51px);
+            }
+
+        }
+
+        &__button {
+            max-width: 51px;
+        }
+
+        &__button-text {
+            display: none;
+        }
+
+        &__label {
+            margin: 10px 0 0;
+        }
+    
+    }
+}
+
