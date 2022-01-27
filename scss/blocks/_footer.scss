@@ -26,3 +26,13 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .footer {
+        padding: 30px 20px 20px;
+
+        &__copyright {
+            margin-top: 40px;
+        }
+    }
+}

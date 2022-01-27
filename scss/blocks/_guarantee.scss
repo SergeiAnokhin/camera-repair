@@ -65,6 +65,10 @@
 @media (max-width: 954px) {
     .guarantee {
 
+        &__title {
+            margin-bottom: 40px;
+        }
+
         &__cards {
             justify-content: center;
         }
@@ -78,9 +82,36 @@
 
 @media (max-width: 767px) {
     .guarantee {
+        padding: 0 20px 30px;
+
+        &__title {
+            font-size: 12px;
+            line-height: 18px;
+        }
 
         &__card {
             max-width: none;
+            min-height: 148px;
+        }
+
+        &__heading {
+            margin-bottom: 36px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+    }
+}
+
+@media (max-width: 550px) {
+    .guarantee {
+
+        &__text {
+            font-size: 12px;
+            line-height: 18px;
         }
 
     }

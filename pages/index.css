@@ -366,6 +366,11 @@ template {
   color: #FFFFFF;
 }
 
+@media (max-width: 767px) {
+  .page {
+    padding: 24px 0 0;
+  }
+}
 .logo {
   margin: 0;
   font-size: 22px;
@@ -390,6 +395,12 @@ template {
   .logo {
     font-size: 20px;
     line-height: 28px;
+  }
+  .logo__notice {
+    margin-left: 12px;
+  }
+  .logo_footer {
+    margin-bottom: 184px;
   }
 }
 .header {
@@ -429,7 +440,7 @@ template {
   .header__title {
     font-size: 50px;
     line-height: 60px;
-    margin: 70px 0 0;
+    margin: 60px 0 10px;
   }
   .header__subtitle {
     margin-bottom: 260px;
@@ -452,6 +463,7 @@ template {
 @media (max-width: 767px) {
   .repair-request {
     padding: 0 20px;
+    margin-bottom: 0;
   }
 }
 .form {
@@ -513,7 +525,15 @@ template {
     max-width: calc(100% - 221px);
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 610px) {
+  .form__input {
+    max-width: calc(100% - 221px);
+  }
+}
+@media (max-width: 500px) {
+  .form__button-text {
+    display: none;
+  }
   .form__input {
     max-width: calc(100% - 51px);
   }
@@ -522,9 +542,6 @@ template {
   }
   .form__button {
     max-width: 51px;
-  }
-  .form__button-text {
-    display: none;
   }
   .form__label {
     margin: 10px 0 0;
@@ -606,6 +623,21 @@ template {
     line-height: 30px;
   }
 }
+@media (max-width: 767px) {
+  .description {
+    padding: 40px 20px 20px;
+  }
+  .description__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 550px) {
+  .description__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 .services {
   box-sizing: border-box;
   max-width: 1240px;
@@ -674,6 +706,60 @@ template {
     max-width: none;
   }
 }
+@media (max-width: 767px) {
+  .services {
+    padding: 0 20px 70px;
+  }
+  .services__card {
+    padding: 20px;
+  }
+  .services__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 68px;
+  }
+  .services__label {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .services__heading {
+    margin: 0 0 28px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .services__text {
+    margin: 0 0 100px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .services__price {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .services__title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .services__label {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .services__heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .services__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .services__price {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 .guarantee {
   box-sizing: border-box;
   max-width: 1240px;
@@ -727,6 +813,9 @@ template {
   }
 }
 @media (max-width: 954px) {
+  .guarantee__title {
+    margin-bottom: 40px;
+  }
   .guarantee__cards {
     justify-content: center;
   }
@@ -735,8 +824,29 @@ template {
   }
 }
 @media (max-width: 767px) {
+  .guarantee {
+    padding: 0 20px 30px;
+  }
+  .guarantee__title {
+    font-size: 12px;
+    line-height: 18px;
+  }
   .guarantee__card {
     max-width: none;
+    min-height: 148px;
+  }
+  .guarantee__heading {
+    margin-bottom: 36px;
+  }
+  .guarantee__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 550px) {
+  .guarantee__text {
+    font-size: 12px;
+    line-height: 18px;
   }
 }
 .support {
@@ -773,7 +883,7 @@ template {
   color: #8E8E98;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .support {
     margin-bottom: 150px;
   }
@@ -788,6 +898,31 @@ template {
   .support__text {
     font-size: 20px;
     line-height: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .support {
+    padding: 40px 20px 30px;
+  }
+  .support__title {
+    margin-bottom: 50px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .support__button {
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 16px 30px;
+  }
+  .support__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .support__button {
+    width: 100%;
   }
 }
 .footer {
@@ -813,5 +948,13 @@ template {
     margin-top: 60px;
     align-self: flex-start;
     transform: none;
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 30px 20px 20px;
+  }
+  .footer__copyright {
+    margin-top: 40px;
   }
 }

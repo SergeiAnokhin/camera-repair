@@ -5,3 +5,9 @@
     font-family: 'Roboto';
     color: $title-color;
 }
+
+@media (max-width: 767px) {
+    .page {
+        padding: 24px 0 0;
+    }
+}

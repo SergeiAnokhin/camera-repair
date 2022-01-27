@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .support {
         margin-bottom: 150px;
 
@@ -53,6 +53,38 @@
         &__text {
             font-size: 20px;
             line-height: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .support {
+        padding: 40px 20px 30px;
+
+        &__title {
+            margin-bottom: 50px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        &__button {
+            margin-bottom: 30px;
+            font-size: 12px;
+            line-height: 18px;
+            padding: 16px 30px;
+        }
+
+        &__text {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .support {
+        &__button {
+            width: 100%;
         }
     }
 }

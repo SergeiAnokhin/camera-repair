@@ -47,7 +47,7 @@
     .form {
 
         &__input {
-
+            // max-width: calc(100% - 221px);
             &_fluid {
                 max-width: calc(100% - 221px);
             }
@@ -57,8 +57,25 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 610px) {
     .form {
+
+        &__input {
+            max-width: calc(100% - 221px);
+
+        }
+    
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .form {
+
+        &__button-text {
+            display: none;
+        }
 
         &__input {
 
@@ -74,9 +91,7 @@
             max-width: 51px;
         }
 
-        &__button-text {
-            display: none;
-        }
+
 
         &__label {
             margin: 10px 0 0;

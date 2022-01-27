@@ -79,3 +79,74 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .services {
+        padding: 0 20px 70px;
+
+        &__card {
+            padding: 20px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 68px;
+        }
+
+        &__label {
+            margin: 0 0 10px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+    
+        &__heading {
+            margin: 0 0 28px;
+            font-size: 26px;
+            line-height: 34px;
+        }
+    
+        &__text {
+            margin: 0 0 100px;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    
+        &__price {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+    }
+}
+
+@media (max-width: 550px) {
+    .services {
+
+        &__title {
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        &__label {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    
+        &__heading {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    
+        &__text {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    
+        &__price {
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+    }
+}
