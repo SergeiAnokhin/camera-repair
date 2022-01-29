@@ -377,20 +377,27 @@ template {
   line-height: 30px;
   display: flex;
   align-items: center;
+  margin-left: 4px;
 }
 .logo__notice {
   font-size: 12px;
   line-height: 12px;
-  margin-left: 20px;
+  margin-left: 18px;
   padding: 4px 8px;
   background-color: #25E197;
   border-radius: 4px;
   color: #000000;
 }
-.logo_footer {
+.logo_place_footer {
+  margin-left: 0;
   margin-bottom: 84px;
 }
 
+@media (max-width: 1023px) {
+  .logo {
+    margin-left: 0;
+  }
+}
 @media (max-width: 767px) {
   .logo {
     font-size: 20px;
@@ -399,7 +406,7 @@ template {
   .logo__notice {
     margin-left: 12px;
   }
-  .logo_footer {
+  .logo_place_footer {
     margin-bottom: 184px;
   }
 }
@@ -530,7 +537,7 @@ template {
   color: #47474C;
   margin: 12px;
 }
-.form__label_footer {
+.form__label_place_footer {
   margin: 18px 0 0;
 }
 
@@ -945,7 +952,7 @@ template {
   box-sizing: border-box;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 60px 60px 42px;
+  padding: 56px 60px 42px;
   border-top: 2px solid #151515;
 }
 .footer__copyright {
