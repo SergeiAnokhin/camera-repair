@@ -4,21 +4,21 @@
     flex-wrap: wrap;
     gap: 20px;
 
-    &__img-1 {
+    &__img-first {
         border-radius: 10px;
     }
 
-    &__img-2 {
+    &__img-last {
         border-radius: 10px;
     }
 
-    &__block-1 {
+    &__block-first {
         width: calc(100% - 468px);
         background-color: $decor-color;
         border-radius: 10px;
     }
 
-    &__block-2 {
+    &__block-last {
         width: calc(100% - 750px);
         background-color: $notice-color;
         border-radius: 10px;
@@ -31,11 +31,11 @@
 
         padding: 20px 60px 60px;
         
-        &__img-2 {
+        &__img-last {
             max-width: 455px;
         }
     
-        &__block-2 {
+        &__block-last {
             width: calc(100% - 475px);
             min-height: 344px;
         }
@@ -47,24 +47,24 @@
     .gallery {
         padding: 40px 20px 20px;
 
-        &__img-1 {
+        &__img-first {
             width: 100%;
             // border-radius: 7px;
         }
     
-        &__img-2 {
+        &__img-last {
             width: 100%;
             max-width: none;
             // border-radius: 7px;
         }
     
-        &__block-1 {
+        &__block-first {
             width: 100%;
             min-height: 67px;
             border-radius: 4px;
         }
     
-        &__block-2 {
+        &__block-last {
             width: 100%;
             min-height: 124px;
             border-radius: 4px;
