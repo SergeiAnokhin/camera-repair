@@ -17,4 +17,6 @@
 
 **Студент:** Сергей Анохин
 
+[Ссылка на GitHub Pages](https://sergeianokhin.github.io/camera-repair/index.html)
+
 ![Логотип Яндекса](./images/yandex-logo.svg)
