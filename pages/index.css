@@ -813,9 +813,6 @@ template {
   }
 }
 @media (max-width: 954px) {
-  .guarantee__title {
-    margin-bottom: 40px;
-  }
   .guarantee__cards {
     justify-content: center;
   }
@@ -830,6 +827,7 @@ template {
   .guarantee__title {
     font-size: 12px;
     line-height: 18px;
+    margin-bottom: 40px;
   }
   .guarantee__card {
     max-width: none;
