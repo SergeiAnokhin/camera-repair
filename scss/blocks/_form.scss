@@ -25,9 +25,11 @@
         max-width: 221px;
         text-align: center;
         overflow: hidden;
+        transition: all .2s linear;
 
         &:hover {
             cursor: pointer;
+            opacity: .8;
         }
     }
 

@@ -507,9 +507,11 @@ template {
   max-width: 221px;
   text-align: center;
   overflow: hidden;
+  transition: all 0.2s linear;
 }
 .form__button:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 .form__label {
   font-size: 12px;
@@ -871,9 +873,11 @@ template {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.375px;
+  transition: all 0.2s linear;
 }
 .support__button:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 .support__text {
   margin: 0;
