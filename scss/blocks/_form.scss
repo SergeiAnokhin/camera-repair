@@ -24,6 +24,7 @@
         letter-spacing: 0.4px;
         max-width: 221px;
         text-align: center;
+        overflow: hidden;
 
         &:hover {
             cursor: pointer;
@@ -34,7 +35,69 @@
         font-size: 12px;
         line-height: 18px;
         color: $button-color;
-        margin: 10px;
+        margin: 12px;
+
+        &_footer {
+            margin: 18px 0 0;
+        }
     }
 
 }
+
+@media (max-width: 768px) {
+    .form {
+
+        &__input {
+            // max-width: calc(100% - 221px);
+            &_fluid {
+                max-width: calc(100% - 221px);
+            }
+
+        }
+    
+    }
+}
+
+@media (max-width: 610px) {
+    .form {
+
+        &__input {
+            max-width: calc(100% - 221px);
+
+        }
+    
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .form {
+
+        &__button-text {
+            display: none;
+        }
+
+        &__input {
+
+            max-width: calc(100% - 51px);
+
+            &_fluid {
+                max-width: calc(100% - 51px);
+            }
+
+        }
+
+        &__button {
+            max-width: 51px;
+        }
+
+
+
+        &__label {
+            margin: 10px 0 0;
+        }
+    
+    }
+}
+

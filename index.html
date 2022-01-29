@@ -15,17 +15,82 @@
             <p class="header__subtitle">Плёночных фотоаппаратов</p>
         </header>
         <main class="main">
-            <section class="repair-request">
-                <form class="form">
-                        <input class="form__input" type="email" name="repair-request-form">
-                        <button class="form__button" type="submit">Отремонтируйте камеру ✌️</button>
-                        <label class="form__label" for="repair-request-form">Напишите нам и мы свяжемся с вами.</label>
+            <section class="repair-request" aria-label="Основная форма заявки на ремонт">
+                <form class="form" id="repair-request-form">
+                        <input class="form__input form__input_fluid" type="email" id="repair-request-input">
+                        <button class="form__button" type="submit"><span class="form__button-text">Отремонтируйте камеру</span> ✌️</button>
+                        <label class="form__label" for="repair-request-input">Напишите нам и мы свяжемся с вами.</label>
                 </form>
             </section>
-            <section class="gallery">Галлерея</section>
+            <section class="gallery" aria-label="Галлерея">
+                <img class="gallery__img-1" src="./images/img-1.jpg" alt="Бренд фотоаппарата">
+                <div class="gallery__block-1"></div>
+                <div class="gallery__block-2"></div>
+                <img class="gallery__img-2" src="./images/img-2.jpg" alt="Фотоаппарат Leica">
+            </section>
+            <section class="description" aria-label="О нас">
+                <p class="description__text">
+                    Мы ремонтируем плёночные фотоаппараты. Полносстью механические камеры, относительно современные камеры на&nbsp;электронике, проводим CLA камер, принимаем в зачёт оплаты сломаные тушки и объективы.
+                </p>
+            </section>
+            <section class="services">
+                <h2 class="services__title">
+                    Для энтузиастов, от энтузиастов 👈
+                </h2>
+                <div class="services__cards">
+                    <div class="services__card">
+                        <p class="services__label">CLA</p>
+                        <h3 class="services__heading">Чистка камер.</h3>
+                        <p class="services__text">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.</p>
+                        <p class="services__price">от 2000₽</p>
+                    </div>
+                    <div class="services__card">
+                        <p class="services__label">Ремонт</p>
+                        <h3 class="services__heading">Ремонт камер.</h3>
+                        <p class="services__text">Ремонт механизмов, замена деталей, пайка электроники, адаптация питания.</p>
+                        <p class="services__price">от 2500₽</p>
+                    </div>
+                </div>
+            </section>
+            <section class="guarantee">
+                <h2 class="guarantee__title">
+                    Полная гарантия ⚡️
+                </h2>
+                <div class="guarantee__cards">
+                    <div class="guarantee__card">
+                        <h3 class="guarantee__heading">CLA</h3>
+                        <p class="guarantee__text">После CLA мы даем гарантию на 1 год, в случае беды мы заново обслужим вашу камеру.</p>
+                    </div>
+                    <div class="guarantee__card">
+                        <h3 class="guarantee__heading">Ремонт</h3>
+                        <p class="guarantee__text">После ремонта мы даем гарантию на 3 месяца или 6 месяцев.</p>
+                    </div>
+                    <div class="guarantee__card">
+                        <h3 class="guarantee__heading">Пайка и адаптация</h3>
+                        <p class="guarantee__text">После пайки и адаптации питания мы даем гарантию на 1 год.</p>
+                    </div>
+                    <div class="guarantee__card">
+                        <h3 class="guarantee__heading">Осмотр</h3>
+                        <p class="guarantee__text">Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь сами.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="support">
+                <h2 class="support__title">
+                    Поддержите нас 🤝
+                </h2>
+                <button class="support__button">Напишите нам если хотите помочь!</button>
+                <p class="support__text">Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё создали аккаунт, но как только это сделаем, сообщим вам.</p>
+            </section>
         </main>
         <footer class="footer">
-            Подвал сайта
+            <p class="logo logo_footer">C-Works<span class="logo__notice">Мы открылись</span></p>
+            <form class="form" id="footer-form">
+                <input class="form__input" type="email" id="footer-input">
+                <button class="form__button" type="submit"><span class="form__button-text">Отремонтируйте камеру</span> ✌️</button>
+                <label class="form__label form__label_footer" for="footer-input">Напишите нам и мы свяжемся с вами.</label>
+            </form>
+            <p class="footer__copyright">© C-Works, 2021.</p>
         </footer>
     </div>
     <script src="./scripts/index.js"></script>

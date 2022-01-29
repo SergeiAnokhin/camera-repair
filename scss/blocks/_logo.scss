@@ -14,4 +14,24 @@
         border-radius: 4px;
         color: $main-bg-color;
     }
+
+    &_footer {
+        margin-bottom: 84px;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+        font-size: 20px;
+        line-height: 28px;
+
+        &__notice {
+            margin-left: 12px;
+        }
+
+        &_footer {
+            margin-bottom: 184px;
+        }
+    }
+
 }
