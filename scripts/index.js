@@ -9,10 +9,14 @@ const footerBtn = footerForm.querySelector('button');
 repairRequestForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    console.log(repairRequestInput.value)
+    if (repairRequestInput.value) {
 
-    if (window.innerWidth > 500) {
-        repairRequestBtn.innerHTML = 'Круто, спасибо за доверие!'
+        console.log(repairRequestInput.value)
+
+        if (window.innerWidth > 500) {
+            repairRequestBtn.innerHTML = 'Круто, спасибо за доверие!'
+        }
+
     }
 
 })
@@ -20,10 +24,14 @@ repairRequestForm.addEventListener('submit', (e) => {
 footerForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    console.log(footerInput.value)
+    if (footerInput.value) {
 
-    if (window.innerWidth > 500) {
-        footerBtn.innerHTML = 'Круто, спасибо за доверие!'
+        console.log(footerInput.value)
+
+        if (window.innerWidth > 500) {
+            footerBtn.innerHTML = 'Круто, спасибо за доверие!'
+        }
+
     }
 
 })
