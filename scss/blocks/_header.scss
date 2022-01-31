@@ -1,0 +1,13 @@
+.header {
+    box-sizing: border-box;
+    max-width: $section-width;
+    margin: 0 auto;
+    padding: $section-padding;
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding: $section-padding-mobile;
+    }
+}
+

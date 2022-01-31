@@ -1,0 +1,13 @@
+.page {
+    max-width: $main-width;
+    margin: 0 auto;
+    padding: 60px 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: $title-color;
+}
+
+@media (max-width: 767px) {
+    .page {
+        padding: 24px 0 0;
+    }
+}

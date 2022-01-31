@@ -1,0 +1,29 @@
+@import '../vendor/fonts';
+@import '../vendor/normalize';
+
+@import '../scss/variables';
+@import '../scss/mixins';
+
+@import '../scss/blocks/body';
+@import '../scss/blocks/page';
+
+@import '../scss/blocks/logo';
+
+@import '../scss/blocks/header';
+
+@import '../scss/blocks/main';
+
+@import '../scss/blocks/repair-request';
+@import '../scss/blocks/form';
+
+@import '../scss/blocks/gallery';
+
+@import '../scss/blocks/description';
+
+@import '../scss/blocks/services';
+
+@import '../scss/blocks/guarantee';
+
+@import '../scss/blocks/support';
+
+@import '../scss/blocks/footer';
