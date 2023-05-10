@@ -1,7 +1,7 @@
 
 # Film camera repair
 
-## [Project Link](https://sergeianokhin.github.io/camera-repair/index.html)
+## [Project Link](https://sergeianokhin.github.io/camera-repair/)
 
 ## Tech Stack
 
